@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="es">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JFaba Notes | Paypal</title>
+    <link href="../../dist/output.css" rel="stylesheet">
+
+</head>
+<body>
+
+<div class="background-pattern md:bg-[url('../img/background_image.jpg')] top-0 bottom-0 left-0 right-0 fixed -z-10 blur md:opacity-70"></div>
+<button class="site-language">
+    <img src="../../img/translate-language.svg" alt="Language">
+</button>
+<div class="flex h-screen justify-center items-center">
+    <form class="w-auto justify-center relative mx-5">
+        <h1 class="site-title">Support Us!</h1>
+        <p class="site-subtitle mb-4">Select or write the amount you want</p>
+        <ul class="grid grid-cols-3 gap-2 mb-2">
+            <li>
+                <input class="sr-only peer" type="radio" name="answer" id="answer_1">
+                <label class="site-pricing" for="answer_1">
+                    <span class="text-2xl font-extrabold hidden sm:inline-block">$</span>
+                    <span class="text-5xl font-bold">25</span>
+                    <span class="text-lg font-semibold hidden md:inline-block">USD</span>
+                </label>
+            <li>
+                <input class="sr-only peer" type="radio" name="answer" id="answer_2">
+                <label class="site-pricing" for="answer_2">
+                    <span class="text-2xl font-extrabold hidden sm:inline-block">$</span>
+                    <span class="text-5xl font-bold">50</span>
+                    <span class="text-lg font-semibold hidden md:inline-block">USD</span>
+                </label>
+            </li>
+            <li>
+                <input class="sr-only peer" type="radio" name="answer" id="answer_3">
+                <label class="site-pricing" for="answer_3">
+                    <span class="text-2xl font-extrabold hidden sm:inline-block">$</span>
+                    <span class="text-5xl font-bold">75</span>
+                    <span class="text-lg font-semibold hidden md:inline-block">USD</span>
+                </label>
+            </li>
+        </ul>
+        <input class="sr-only peer" type="radio" name="answer" id="answer_4">
+        <label class="site-pricing" for="answer_4">
+            <span class="text-2xl font-extrabold hidden sm:inline-block">$</span>
+            <input type="number" placeholder="000" min="1" max="999" class="text-right text-5xl font-bold w-[5.2rem] appearance-none -mt-2 bg-transparent"
+                   onkeyup="if( parseInt( this.value ) > 999 ) { this.value =999; return false; }">
+            <span class="text-lg font-semibold hidden md:inline-block">USD</span>
+            <span class="my-auto mx-5 font-semibold">I want to donate this exact amount.</span>
+        </label>
+        <input type="number" class="site-input my-2 lg:inline-block md:opacity-70" placeholder="Your Paypal Card"/>
+        <button class="site-button lg:inline-block lg:w-10 lg:mt-2 lg:ml-2 lg:rounded-full lg:absolute lg:-right-12">
+            <span class="inline-block lg:hidden xl:hidden 2xl:hidden">Change Password</span>
+            <img src="../../img/right-arrow.svg" class="h-6 -mt-1 hidden lg:inline-block xl:inline-block 2xl:inline-block">
+        </button>
+        <div class="flex w-full items-center justify-between mt-2 p-3">
+            <div class="text-sm">
+                <a href="#" class="site-link">
+                    <div class="w-5 inline-block float-left mr-1">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512">
+                            <title>Arrow Back</title>
+                            <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="48" d="M244 400L100 256l144-144M120 256h292"/>
+                        </svg>
+                    </div>
+                    <span class="inline-block">Back to Dashboard</span>
+                </a>
+            </div>
+        </div>
+    </form>
+</div>
+
+</body>
+</html>

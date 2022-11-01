@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 259 47" width="259" height="47" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
+  <path d="M 18.306 43.926 L 18.306 10.652 C 18.306 6.362 21.799 2.886 26.108 2.886 L 59.538 2.886 L 18.306 43.926 Z" style="stroke: rgb(0, 0, 0); stroke-width: 0px; fill: rgb(253, 202, 0);" bx:origin="3.654782 0.350718"/>
+  <ellipse style="stroke: rgb(83, 83, 83); fill: rgb(83, 83, 83); stroke-width: 0px;" cx="6.991" cy="10.796" rx="4.991" ry="4.968" bx:origin="16.730114 1.152523"/>
+  <ellipse style="stroke: rgb(83, 83, 83); fill: rgb(83, 83, 83); stroke-width: 0px;" cx="6.991" cy="35.451" rx="4.991" ry="4.968" bx:origin="16.730114 -1.328858"/>
+  <text style="fill: rgb(83, 83, 83); font-family: &quot;Century Gothic&quot;; font-size: 37.7489px; font-weight: 700; letter-spacing: -0.8px; line-height: 60.3983px; text-transform: capitalize; word-spacing: -15.8px; white-space: pre;" transform="matrix(0.869935, 0, 0, 0.887332, 8.467313, -9.849374)" bx:origin="0.386436 0.5"><tspan x="64.603" y="49.453" style="text-transform: lowercase;">j</tspan><tspan>FabaNotes</tspan></text>
+</svg>
