@@ -1,4 +1,7 @@
 {
+  "name": "jfabanotes_ui",
+  "description": "",
+  "license": "MIT",
   "scripts": {
     "tw:watch": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
   },
